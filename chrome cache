@@ -1,0 +1,18 @@
+EXPERIMENT-06
+Extract Chrome cache using forensic tools
+Aim of the Experiment:
+ To Extract Chrome cache using forensic tools and analyse them.
+ 
+Procedure: 
+Step 1: Download Chrome cache View tool 
+URL: https://sourceforge.net/projects/chromecacheview/
+Step 2: Setup from the exe file downloaded 
+Step 3: Click run anyway when the below dialog box appears
+
+Step 4: Start the Chrome Cache View Tool
+Step 5: Wait for the scanning process to complete 
+Step 6: After the completion of the scanning process, the chrome cache view can be found and analysed. 
+
+
+ Result:
+The experiment has been successfully executed
