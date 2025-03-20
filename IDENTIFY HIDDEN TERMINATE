@@ -1,0 +1,17 @@
+ Identifying Hidden Processes and terminate processes
+Aim: To Identify Hidden Processes and terminate processes.
+SOFTWARE USED: CMD prompt.
+ Procedure: 
+Open cmd with run as administrator.
+List all running processes:
+
+tasklist
+
+The above command will list all running tasks.
+now run the below command to list all the hidden tasks
+wmic process where "SessionId=0" get Name, ProcessId
+
+The above command will list all running hidden tasks. 
+to terminate any running task run the below command 
+taskkill /F /PID <PID_NUMBER>
+The Pid_number should be the ID of the process.
