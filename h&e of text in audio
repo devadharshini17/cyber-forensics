@@ -1,0 +1,33 @@
+Hiding and extracting a text file behind an audio file.
+Aim of the Experiment:
+To study the steps for hiding and extract any text file behind an Audio file using Command Prompt. 
+Any file like .rar .jpg .txt or any file can be merged inside another file. In a simple way, we shall learn how to hide a text file inside an image file using the Command Prompt. 
+How to Hide the FILE? 
+Suppose you have to hide a text file “A.txt” with the image file “sound.mp3” and combine them in a new file as “newfile.mp3”.  Where “newfile.mp3” is our output file which contains the text hidden in the image file. 
+Follow the steps: 
+copy the file need to hide, to desktop (for our tutorial let us assume the file to be "A.txt")
+copy the audio, within which you need to hide the file, to desktop (let it be "sound.mp3")
+now open the cmd: >ctrl+r >type: cmd and hit enter 
+in cmd first type the code as follows: >cd desktop NOTE: this code is for assigning the location on cmd to desktop 
+Now type the following code: 
+
+      copy /b A.txt + sound.mp3 newfile.mp3
+ Syntax: copy /b Name-of-file-containing-text-you-want-to-hide.txt + Name-of-initial- audio.mp3 Resulting-audio-name.mp3 
+
+"newfile.mp3" is the output audio inside this out audio our file is hidden 
+
+How to retrieve the file? 
+locate newfile.mp3 file from where you want to retrieve text data 
+Right-click and open with notepad
+ 
+
+Done! Successfully opened! In the last of the notepad, you’ll find the content of the text file. 
+Hide A Message into Audio:
+Open the Run command window by pressing win + r. 
+Open command prompt by typing cmd and press OK 
+Enter the directory where you have your files. 
+Then type the command: echo "Your Message">>"audio.mp3"
+Now the message is successfully hidden in the audio file.
+To view the message: Open with Notepad, at last, you’ll find the Your Message
+Result:
+The experiment has been successfully executed.
