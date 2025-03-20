@@ -1,0 +1,15 @@
+ Hiding a ZIP File Inside an Image
+Aim: To Hide a ZIP File Inside an Image.
+SOFTWARE USED: CMD prompt.
+ Procedure: 
+Place the image file (cover.jpg) and ZIP file (secret.zip) in the same folder.
+Open cmd inside the folder.
+Run the following cmd
+copy /b cover.jpg + secret.zip hidden.jpg
+
+hidden.jpg will look like a normal image but contains the hidden ZIP file.
+To view the hidden file run the below cmd
+ren hidden.jpg secret.zip
+ After the above cmd the hidden file will be restored.
+ Result: 
+Hence, hiding the file command executed successfully. 
