@@ -1,0 +1,19 @@
+Extract Chrome History using forensic tools
+ 
+Aim of the Experiment:
+ To Extract Chrome history using forensic tools and analyse them.
+ 
+Procedure: 
+Step 1: Download Browsing History View tool 
+URL:
+https://sourceforge.net/projects/browsinghistoryview/
+Step 2: Setup from the exe file downloaded 
+Step 3: Click run anyway when the below dialog box appears
+
+Step 4: Start the Browsing History View Tool
+Step 5: Wait for the scanning process to complete 
+Step 6: After the completion of the scanning process, the chrome history view can be found and analysed. 
+
+
+ Result:
+The experiment has been successfully executed
