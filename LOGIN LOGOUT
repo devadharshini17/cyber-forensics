@@ -1,0 +1,17 @@
+To extract the recent login and logout
+Aim: To extract the recent login and logout
+SOFTWARE USED: CMD prompt.
+ Procedure: 
+Open Command prompt as administrator 
+Run below command to see to recent logins
+wevtutil qe Security /q:"*[System[(EventID=4624)]]" /rd:true /c:10 /f:text
+
+
+Run below command to see to recent logout 
+wevtutil qe Security /q:"*[System[(EventID=4634)]]" /rd:true /c:10 /f:text
+
+
+
+
+
+Now the last 10 logins and logouts can be found.
