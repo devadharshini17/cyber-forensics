@@ -1,0 +1,14 @@
+TRANSPORT LAYER PROTOCOL HEADER ANALYSIS USING WIRESHARK-HTTP 
+Aim: To analyze capturing of Transport layer protocol header analysis using Wire shark- HTTP.
+SOFTWARE USED: Wire shark network analyzer
+ Procedure: 
+Open wire shark.
+Click on list the available capture interface. 
+Choose the wifi interface. 
+Click on the start button.
+Active packets will be displayed. 
+Capture the packets & select any IP address from the source. 
+Click on the expression and select IPV4 →IP address source address in the field name. 
+Select the double equals (==) from the selection and enter the selected IP source address. 
+Click on the apply button. 
+ All the packets will be filtered using the source address.
