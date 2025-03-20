@@ -1,0 +1,9 @@
+View All Wi-Fi Passwords Saved on the Computer
+Aim: To View All Wi-Fi Passwords Saved on the Computer.
+SOFTWARE USED: CMD prompt.
+ Procedure: 
+Open Command prompt as administrator 
+Run below command to see all saved Wi-Fi networks
+netsh wlan show profiles
+To see the password for a specific Wi-Fi network, use below cmd
+netsh wlan show profile name="WiFi-Network-Name" key=clear
