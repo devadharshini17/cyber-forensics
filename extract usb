@@ -1,0 +1,14 @@
+Extract USB devices using forensic tools
+Aim of the Experiment:
+ To Extract the connected external devices using forensic tools and analyse them.
+ Procedure: 
+Step 1: Download previous USB devices view tool 
+URL: USBDeview download | SourceForge.net
+Step 2: Setup from the exe file downloaded 
+Step 4: Start the USB devices view Tool
+Step 5: Wait for the scanning process to complete 
+Step 6: After the completion of the scanning process, the USB devices view can be found and analysed. 
+
+
+ Result:
+The experiment has been successfully executed
